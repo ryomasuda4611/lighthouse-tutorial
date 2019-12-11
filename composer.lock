@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f413b78281049bfab9af9c50e068abfa",
+    "content-hash": "3a11dd139d0e9bec83f887b07e8ac782",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -744,24 +744,27 @@
         },
         {
             "name": "mll-lab/laravel-graphql-playground",
-            "version": "v0.3.3",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mll-lab/laravel-graphql-playground.git",
-                "reference": "390b678a3e423d80d349e1fa61461e0dcbf4d502"
+                "reference": "83e8586bf4a08d76de6b3ebaecf96cb4afaa1d62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mll-lab/laravel-graphql-playground/zipball/390b678a3e423d80d349e1fa61461e0dcbf4d502",
-                "reference": "390b678a3e423d80d349e1fa61461e0dcbf4d502",
+                "url": "https://api.github.com/repos/mll-lab/laravel-graphql-playground/zipball/83e8586bf4a08d76de6b3ebaecf96cb4afaa1d62",
+                "reference": "83e8586bf4a08d76de6b3ebaecf96cb4afaa1d62",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
-                "php": ">=5.5.9"
+                "illuminate/console": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0",
+                "illuminate/contracts": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0",
+                "illuminate/support": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0",
+                "php": ">=7.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.12"
+                "laravel/lumen-framework": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0",
+                "localheinz/composer-normalize": "^1.3"
             },
             "type": "library",
             "extra": {
@@ -792,7 +795,7 @@
                 "graphql-playground",
                 "laravel"
             ],
-            "time": "2018-09-19T08:57:32+00:00"
+            "time": "2019-11-13T07:52:34+00:00"
         },
         {
             "name": "monolog/monolog",
